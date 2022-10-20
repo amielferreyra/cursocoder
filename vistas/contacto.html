@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="shortcut icon" href="../img//ISOLOGO.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link rel="preconectar" href="https://fonts.googleapis.com">
+        <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https: //fonts.googleapis.com/css2? family= Oswald:wght@300;600 & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html"><img src="../img/LOGO.png" alt="LOGO DE LA EMPRESA" class="header__logo"></a>
+        <nav class="header__nav">
+            <ul class="header__lista">
+                <li class="header__item"><a class="header__enlace" href="./contacto.html">Contactanos</a></li>
+                <li class="header__item"><a class="header__enlace" href="./nosotros.html">nosotros</a></li>
+                <li class="header__item"><a class="header__enlace" href="./productos.html">productos</a></li>
+                <li class="header__item"><a class="header__enlace" href="./terminosycondiciones.html">terminos y condiciones</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main__form">
+        <form action="" method="get" enctype="text/plain">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Solicitud de Presupuesto</legend>
+                <div class="main__formitem">
+                    <label for="username">NOMBRE</label>
+                    <div>
+                        <input type="text" name="username" id="username" required>
+                    </div>
+                </div>
+                <div class="main__formitem">
+                    <label for="userlastname">APELLIDO</label>
+                    <div>
+                        <input type="text" name="userlastname" id="userlastname" required>
+                    </div>
+                </div>
+                <div class="main__formitem">
+                    <label for="age">Edad</label>
+                    <input type="number" name="age" id="age" min="10" max="150" step="1">
+                </div>
+                <div class="main__formitem">
+                    <label for="email">Correo electronico</label>
+                    <div>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                </div>
+                <div class="main__formitem">
+                    <label for="phone">Telefono</label>
+                    <div>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
+                </div>
+                <div class="main__formitem">
+                    <label for="bio">¿Que producto te interesa?</label>
+                    <div>
+                        <textarea name="bio" id="bio"></textarea>
+                    </div>
+                </div>
+                <input type="reset" value="Rehacer">
+                <input type="submit" value="enviar">
+            </fieldset>
+        </form>
+    </main>
+    <footer class="footer">
+        <h2 class="footer__subtitulo1">si te interesan nuestros productos, asesorate e informate.</h2>
+        <nav>
+            <ul class="footer__lista2">
+                <li class="footer__item3"><a class="footer__enlace4" href="./productos.html">nuestros productos</a></li>
+                <li class="footer__item3"><a class="footer__enlace4" href="./contacto.html">Contactanos</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

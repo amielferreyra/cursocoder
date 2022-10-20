@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+:root{
+    font-size: 16px;
+}
+/*INDEX*/
+    /*HEADER*/
+.header{
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header__logo{
+    max-width: 250px;
+    filter: invert();
+}
+.header__lista{
+    display: flex;
+}
+.header__item{
+    margin: 1rem;
+}
+
+.header__enlace{
+    color:white;
+    background-color:black;
+    border-bottom: solid white;
+    margin: 1rem;
+    padding: .5rem;
+}
+    /*---MAIN---*/
+.main{
+    background-image: url(../../img/pexels-yan-krukov-9008801.jpg);
+    background-position: right center;
+}
+    /*HERO*/
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero__div{
+    color: white;
+}
+.hero__heading{
+    font-size: 4rem;
+}
+.hero__text{
+    font-size: 1.5rem;
+}
+    /*FIN HERO*/
+.btn{
+    color: black;
+    padding: .5rem;
+    margin: .5rem;
+    background: rgba(255, 255, 255, 0.507) ;
+    display: inline-block;
+}
+.section__ofertas{
+    display: flex;
+}
+.div__ofertas{
+    background-color: rgba(0, 0, 0, 0.568);
+    padding: 2rem;
+    margin: 2rem;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.subtitulo__ofertas{
+    color: white;
+    padding: .5rem;
+}
+.img__ofertas{
+    width: 100%;
+}
+.descrip__ofertas{
+    font-size: 1.5rem;
+    color: white;
+    padding: .5rem;
+    margin: 1rem;
+}
+.link__vistas{
+    background-color: rgba(255, 255, 255, 0.24);
+    color: black;
+    border: solid black;
+    padding: 1rem;
+}
+.section__complementaria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 58, 58);
+}
+.div__complementario{
+    background-color: rgba(0, 0, 0, 0.473);
+    margin: 1rem;
+    padding: 1rem;
+}
+.div__titulo{
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+.video__complementario{
+    width: 100%;
+}
+.div__complementario1{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: 1rem;
+}
+.complementario__subt{
+    padding: .5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.div__pearldescrip{
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+}
+    /*FOOTER*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.footer__subtitulo1{
+    font-size: 1.5rem;
+    color: white;
+}
+.footer__lista2{
+    display: flex;
+}
+.footer__item3{
+    background: white;
+    padding: 1rem .5rem;
+    margin: 1rem;
+}
+.footer__enlace4{
+    color: black;
+}
+        /*FIN DEL FOOTER*/
+/*CONTACTO*/
+    /*MAIN*/
+.main__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../img/pexels-cottonbro-4087992.jpg);
+    height: 80vh;
+}
+.form__fieldset{
+    background-color: rgba(169, 169, 169, 0.527);  
+    padding: .5rem 3.5rem;
+}
+.form__legend{
+    background-color: darkgrey;    
+}
+.main__formitem{
+    padding: 1rem 0rem;
+}
+/*NOSOTROS*/
+    /*HEADER*/
+    /*MAIN*/
+.main__nos{
+    background-color: lightslategrey;
+}
+.div__img{
+    max-width: 100%;
+}
+.div__info{
+    font-size: 1.5rem;
+    grid-area: informacion;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-left: solid black;
+    border-right: solid black;
+}
+.div__nosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 120px;
+    grid-template-areas: "subtitulo imagen"
+                        "informacion informacion";
+    justify-items: center;
+    align-items: center;
+}
+.div__subtit{
+    font-size: 3.5rem;
+    grid-area: subtitulo;
+    border-bottom: solid black;
+}
+.img{
+    grid-area: imagen;
+    padding: 1rem;
+}
+    /*FIN DEL MAIN*/
+.main__flex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+    gap: 1rem;
+    background-image: url(../../img/pexels-rodnae-productions-8197225.jpg);
+    background-position: center;
+}
+.main__div{
+    color:black;
+    background-color:rgba(222, 184, 135, 0.432);
+    padding: 1rem;
+}
+.main__img{
+    width: 100%;
+}
+.main__descripcion{
+font-size: 1.5rem;
+}
+/*PRODUCTOS*/
+    /*HEADER*/
+    /*MAIN*/
+.section__flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategrey;
+    margin: 1rem;
+    padding: 1 rem;
+    height: 80px;
+}
+.div__grids{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+    margin: 1rem;
+}
+.div_item{
+    background-color: lightslategrey;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.div_img{
+    width: 100%;
+    padding: 1rem;
+}
+/*TERMINOS Y CONDICIONES*/
+    /*HEADER*/
+    /*FIN HEADER*/
+    /*MAIN*/
+.main__section{
+    background-color: lightslategrey;
+    display: flex;
+    flex-direction: column;
+}
+.info__tyc{
+    padding: 1rem;
+}
+    /*FIN MAIN*/
+
+
+
+
